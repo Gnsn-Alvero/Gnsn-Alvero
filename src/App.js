@@ -1,5 +1,7 @@
 import { CiWarning,CiMenuFries,CiUser,CiShop } from "react-icons/ci";
 import { HiOutlineShoppingBag } from "react-icons/hi";
+
+import Footer from "./components/Footer";
 import { useState } from "react";
 
 import './App.css';
@@ -62,6 +64,7 @@ function App() {
       
      }
 
+      <Footer />
     </div>
 
 
