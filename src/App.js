@@ -1,12 +1,17 @@
 import { CiWarning,CiMenuFries,CiUser,CiShop } from "react-icons/ci";
 import { HiOutlineShoppingBag } from "react-icons/hi";
-
-import './App.css';
+import Home0 from "./components/Home1/Home0";
+import Home1 from "./components/Home1/Home1";
+// import './App.css';
 
 function App() {
   return (
-   <div>
-      <nav class="main-nav">
+   <>
+    <Home0/>
+    <Home1/>
+
+  
+      {/* <nav class="main-nav">
         <div class="container_1">
           <div class="icon_1"><CiMenuFries size='5rem'/></div>
         </div>
@@ -41,10 +46,10 @@ function App() {
           VISIT OTHER SERVICES
         </div>
 
-      </body>
+      </body> */}
 
 
-    </div>
+    </>
 
 
    
