@@ -1,37 +1,53 @@
 import { CiWarning,CiMenuFries,CiUser,CiShop } from "react-icons/ci";
 import { HiOutlineShoppingBag } from "react-icons/hi";
+
 import Footer from "./components/Footer";
+import { useState } from "react";
 
 import './App.css';
+import HamTitle from "./components/TitleHam/HamTitle";
 
 function App() {
+  const [menu, setMenu] =useState(false);
+  const showMenu=()=>{
+    setMenu(!menu)
+  }
+  
+  
   return (
    <div>
-      <nav class="main-nav">
-        <div class="container_1">
-          <div class="icon_1"><CiMenuFries size='5rem'/></div>
+   {menu && <HamTitle open={menu} setOpen={setMenu} />}
+      {/* <nav className="main-nav "> */}
+     {<>
+
+      {/* !menu && */}
+      {!menu && <nav className={"main-nav "+(!menu && "active")}>
+        <div className="container_1">
+            {/* {menu && <HamTitle open={menu} setOpen={setMenu} />} */}
+          <div className="icon_1"><CiMenuFries style={{cursor:"pointer"}} onClick={showMenu} size='5rem' />
+          </div>
         </div>
 
         <div className="heading">
             <div><a href="https://www.linkedin.com/company/gnsnalvero/" target="_blank">GNAL</a></div>
         </div>
         
-          <li className="Services"><a href="https://www.linkedin.com/company/gnsnalvero/" target="_blank">Services</a></li>
-          <li className="Shop"><a href="https://www.linkedin.com/company/gnsnalvero/" target="_blank">Shop</a></li>
-             <div class="container_2">
-                <div class="icon_2"><CiShop size='2rem'/></div>
+          <li className={"Services " + (menu && "active")}><a href="https://www.linkedin.com/company/gnsnalvero/" target="_blank">Services</a></li>
+          <li className={"Shop " +(menu && "active")}><a href="https://www.linkedin.com/company/gnsnalvero/" target="_blank">Shop</a></li>
+             <div className="container_2">
+                <div className="icon_2"><CiShop size='2rem'/></div>
             </div>
-          <div class="container_3">
-                <div class="icon_3"><CiUser size='2rem'/></div>
+          <div className="container_3">
+                <div className="icon_3"><CiUser size='2rem'/></div>
           </div>
        
-      </nav>
+      </nav>}
       
       
-      <body>
+      <body className={menu && "bodycss"}>
 
-        <div class="container">
-          <div class="icon"><CiWarning size='4.5rem'/></div>
+        <div className="container">
+          <div className="icon"><CiWarning size='4.5rem'/></div>
         </div>
 
         <div className='message'>
@@ -43,7 +59,10 @@ function App() {
         </div>
 
       </body>
+     </>
 
+      
+     }
 
       <Footer />
     </div>
