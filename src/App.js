@@ -1,12 +1,20 @@
 import { CiWarning,CiMenuFries,CiUser,CiShop } from "react-icons/ci";
 import { HiOutlineShoppingBag } from "react-icons/hi";
+
+
+
+
+import Footer from "./components/Footer";
+
+import './App.css';
+
+
 import Home0 from "./components/Home1/Home0";
 import Home1 from "./components/Home1/Home1";
 import Home2 from "./components/Home1/Home2";
 import Home3 from "./components/Home1/Home3";
 import Home4 from "./components/Home1/Home4";
 import Home5 from "./components/Home1/Home5";
-// import './App.css';
 
 function App() {
   return (
@@ -57,7 +65,11 @@ function App() {
       </body> */}
 
 
+
+      <Footer />
+    </div>
     </>
+
 
 
    
