@@ -6,6 +6,7 @@ import l1img from "../../images/Line1.png"
 import l2img from "../../images/Line2.png"
 import gnsnimg from "../../images/GnsnAlvero.png"
 import searchimg from "../../images/search.png"
+import "../../App.css"
  
 const Home0 = () => {
   return (

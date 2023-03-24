@@ -10,6 +10,7 @@ import accounticon2 from "../../images/account2.png"
 import searchicon from "../../images/search1.png"
 import shopcircleicon from "../../images/shopcircle.png"
 import diaicon2 from "../../images/dia2.png"
+import "../../App.css"
 
 
 const Home1 = () => {

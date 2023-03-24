@@ -2,6 +2,10 @@ import { CiWarning,CiMenuFries,CiUser,CiShop } from "react-icons/ci";
 import { HiOutlineShoppingBag } from "react-icons/hi";
 import Home0 from "./components/Home1/Home0";
 import Home1 from "./components/Home1/Home1";
+import Home2 from "./components/Home1/Home2";
+import Home3 from "./components/Home1/Home3";
+import Home4 from "./components/Home1/Home4";
+import Home5 from "./components/Home1/Home5";
 // import './App.css';
 
 function App() {
@@ -9,6 +13,10 @@ function App() {
    <>
     <Home0/>
     <Home1/>
+    <Home2/>
+    <Home3/>
+    <Home4/>
+    <Home5/>
 
   
       {/* <nav class="main-nav">
