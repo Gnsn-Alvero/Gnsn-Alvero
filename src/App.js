@@ -1,31 +1,14 @@
 import HomePage from "./componenets/Homepage/HomePage"
 import Footer from "./components/Footer";
 
+
 import './App.css';
 
 function App() {
   return (
     <div>
       <HomePage />
-      {/* <nav class="main-nav">
-        <div class="container_1">
-          <div class="icon_1"><CiMenuFries size='5rem' /></div>
-        </div>
 
-        <div className="heading">
-          <div><a href="https://www.linkedin.com/company/gnsnalvero/" target="_blank">GNAL</a></div>
-        </div>
-
-        <li className="Services"><a href="https://www.linkedin.com/company/gnsnalvero/" target="_blank">Services</a></li>
-        <li className="Shop"><a href="https://www.linkedin.com/company/gnsnalvero/" target="_blank">Shop</a></li>
-        <div class="container_2">
-          <div class="icon_2"><CiShop size='2rem' /></div>
-        </div>
-        <div class="container_3">
-          <div class="icon_3"><CiUser size='2rem' /></div>
-        </div>
-
-      </nav> */}
 
 
       {/* <body>
