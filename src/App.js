@@ -32,7 +32,7 @@ function App() {
         </div>
 
       </body> */}
-      {/* <section6 /> */}
+
 
     </div>
   );
