@@ -1,0 +1,122 @@
+/* body{ */
+    /* margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center; */
+    /* height: 100vh; */
+    /* width: 100vw; */
+    /* position: absolute;
+    width: 1728px; 
+    height: 1117px; */
+    /* width: 100vw; */
+    /* height: 100vh; */
+
+/* background: #F0F5F9; */
+/* } */
+/* body{
+    width: 1728px; 
+    height: 1117px; 
+
+} */
+/* .menu.active{
+    display: none;
+} */
+.menu{
+    width: 1728px; 
+    height: 1117px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    z-index: 2;
+    background-color: aliceblue;
+    position: fixed;
+    /* display: none; */
+
+    
+}
+
+/* .menu .cross1{
+    display: flex;
+    height: 37px;
+    width: 37px;
+    left: 12px;
+    top: 12px;
+    border-radius: 0px;
+}
+.menu .cross2{
+    display: flex;
+    height: 37px;
+    width: 37px;
+    left: 12px;
+    top: 12px;
+    border-radius: 0px;
+} */
+
+.menu .cross1 img{
+    position: absolute;
+    /* left: 20%; */
+    left: 1575px;
+    right: 18.33%;
+    /* top: 20%; */
+    top: 115px;
+    bottom: 18.33%;
+
+    /* border: 5px solid #1E2022; */
+}
+.menu .cross2 img{
+    position: absolute;
+    /* left: 20%; */
+    left: 1575px;
+    right: 18.33%;
+    /* top: 20%; */
+    top: 115px;
+    bottom: 18.33%;
+    /* border: 5px solid #1E2022; */
+}
+.menu ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-decoration: none;
+    /* display: none; */
+}
+.menu ul li{
+    /* margin-bottom: 108px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-decoration: none;
+}
+.menu ul li a{
+    position: absolute;
+    text-decoration: none;
+    list-style: none;
+
+    /* position: absolute; */
+/* width: 101px; */
+
+font-family: 'Poison';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 48px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #1E2022;
+
+}
+/* .menu.active{
+    background-color: white;
+    right: 0;
+
+} */
+
+
