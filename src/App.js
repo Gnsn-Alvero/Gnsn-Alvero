@@ -1,4 +1,4 @@
-import HomePage from "./componenets/Homepage/HomePage"
+import HomePage from "./components/HomePage/HomePage"
 import Footer from "./components/Footer";
 
 
@@ -8,6 +8,7 @@ function App() {
   return (
     <div>
       <HomePage />
+      <Footer />
 
 
 
